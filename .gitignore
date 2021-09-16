@@ -10,6 +10,5 @@ dist
 .parcel-cache
 
 # OS Files
-.
+.DS_Store
 
-##
