@@ -1,6 +1,28 @@
 # SASS Syntactically Awesome Style Sheets
 CSS on its own can be fun, but as your stylesheets get larger and more complex the harder it is to maintain. This is where a preprocessor can help. SASS gives you additional tools to help you to write and manage your css. SASS compiles to CSS.
 
+## Pre Flight
+1. Compiler scss ==> css
+   - LiveSass Compiler for VS Code extension.
+2. Configure extension
+   - settings ==> user.settings.json 
+    ```json
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        }
+    ]
+    ``` 
+3. Compile scss - turn on/off LiveSass watch
+   ```cmd
+      CTRL+Shift+P
+      LiveSass: watch sass
+      LiveSass: stop sass
+   ```
+
 __SASS VS SCSS__  
 There are two syntaxes available for SASS and SCSS. They are basically the same just written with a different syntax. One use the curly brace the other doesn't.  
 

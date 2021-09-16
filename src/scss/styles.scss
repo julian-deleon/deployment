@@ -1,6 +1,7 @@
-@use 'reboot';
- 
- 
-body{
-    background-color: rgb(255, 185, 185);
+@import 'app-bar';
+@import 'reboot';
+@import 'vars';
+
+body {
+    background-color: $defColor;
 }
